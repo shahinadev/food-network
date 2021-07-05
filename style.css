@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+section {
+  margin-bottom: 100px;
+}
+.d-flex {
+  display: flex;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+h1,
+h2,
+h3 {
+  color: #575757;
+}
+h3 {
+  font-size: 30px;
+}
+p {
+  font-size: 18px;
+  color: #828282;
+  margin-bottom: 50px;
+  line-height: 30px;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+}
+img {
+  width: 100%;
+}
+.btn {
+  padding: 13px 15px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    124deg,
+    rgb(225 131 43) 13%,
+    rgb(254 58 58) 100%
+  );
+  font-weight: 500;
+  color: #fff;
+  box-shadow: 0 0 10px 0 tomato;
+}
+.text-orange {
+  color: orange;
+}
+
+.menuBar {
+  background-color: tomato;
+  text-align: center;
+  padding: 25px 10px;
+  margin-bottom: 0;
+}
+.menuBar > .menuItem {
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 20px;
+}
+.menuBar > .menuItem:hover {
+  border-left: 4px solid orange;
+  border-right: 4px solid orange;
+  border-radius: 15px;
+}
+
+#hero {
+  padding: 10px 40px;
+}
+.left {
+  width: 40%;
+  margin-right: 5%;
+}
+.left > a {
+  font-size: 14px;
+}
+.right {
+  width: 50%;
+  margin-left: 5%;
+}
+
+#about {
+  background-image: url(images/shapes/about-bg.png);
+  height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 80px 60px;
+  background-position: center;
+}
+#about > .left {
+  width: 50%;
+}
+#about > .right {
+  margin: 0;
+}
+#about > .left > img {
+  width: 51.7%;
+  display: block;
+  margin: 0 auto;
+}
+#about .about-description {
+  padding: 55px 10px;
+  margin-bottom: 25px;
+}
+.about-description > p {
+  margin-bottom: 0;
+}
+.recipe-header-content {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+.recipe-container {
+  width: 100%;
+  margin-top: 30px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+.single-recipe {
+  width: 40%;
+  margin-right: 2%;
+  margin-left: 2%;
+  box-shadow: 0 0 40px 0 #00000026;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+footer {
+  background-color: #0b0d17;
+  margin: 0;
+  padding: 15px 0 60px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 17px;
+}
