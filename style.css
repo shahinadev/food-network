@@ -10,7 +10,9 @@ section {
 .d-flex {
   display: flex;
 }
-
+.center {
+  margin: 0 auto;
+}
 h1 {
   font-size: 60px;
   font-weight: 600;
@@ -97,7 +99,6 @@ img {
 #about > .left > img {
   width: 51.7%;
   display: block;
-  margin: 0 auto;
 }
 #about .about-description {
   padding: 55px 10px;
@@ -108,7 +109,6 @@ img {
 }
 .recipe-header-content {
   width: 800px;
-  margin: 0 auto;
   text-align: center;
 }
 .recipe-container {
@@ -125,7 +125,47 @@ img {
   padding: 20px;
   border-radius: 30px;
 }
-
+#contact {
+  background-image: url(images/shapes/contactBg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20px 30px;
+  margin-bottom: 0;
+}
+#contact h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.form-container {
+  width: 40%;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 5px;
+  box-sizing: border-box;
+}
+.input-container label,
+input {
+  margin-bottom: 10px;
+}
+.input-container input,
+select,
+textarea {
+  padding: 13px 7px;
+  resize: none;
+  font-size: 16px;
+  border: 2px solid orange;
+  border-radius: 10px;
+  outline: none;
+}
+.form-btn {
+  display: block;
+  outline: none;
+  border: none;
+  margin: 20px auto;
+}
 footer {
   background-color: #0b0d17;
   margin: 0;

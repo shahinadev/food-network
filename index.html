@@ -16,8 +16,9 @@
   <body>
     <section class="menuBar">
       <a href="#" class="menuItem">Home</a>
-      <a href="#about" class="menuItem">About</a>
+      <a href="#about" class="menuItem">About me!</a>
       <a href="#recipies" class="menuItem">Recipes</a>
+      <a href="#contact" class="menuItem">Contact me</a>
     </section>
     <section class="d-flex" id="hero">
       <div class="left m-2">
@@ -43,7 +44,7 @@
 
     <section id="about" class="d-flex">
       <div class="left">
-        <img src="images/female/Person.png" alt="Person Photo" />
+        <img src="images/female/Person.png" class="center" alt="Person Photo" />
       </div>
       <div class="right">
         <div class="about-description">
@@ -63,7 +64,7 @@
     </section>
 
     <section id="recipies">
-      <div class="recipe-header-content">
+      <div class="recipe-header-content center">
         <h3>My Recipes</h3>
         <p>
           Some of My favorite food recipes. <br />
@@ -112,7 +113,35 @@
         </div>
       </div>
     </section>
-
+    <section id="contact">
+      <h3>Contact With Me!</h3>
+      <form action="#" class="form-container center">
+        <div class="input-container">
+          <label for="name">Your Name</label>
+          <input type="text" id="name" placeholder="ex:Jon De" required />
+        </div>
+        <div class="input-container">
+          <label for="email">Your Email</label>
+          <input
+            type="email"
+            id="email"
+            placeholder="ex:jon.de@gmail.com"
+            required
+          />
+        </div>
+        <div class="input-container">
+          <label for="message">Write your Message</label>
+          <textarea
+            name="message"
+            id="message"
+            placeholder="ex: how are you. I want to know more about this website."
+            rows="10"
+            required
+          ></textarea>
+        </div>
+        <input type="submit" value="Send Message!" class="btn form-btn" />
+      </form>
+    </section>
     <footer>
       <h2><span class="text-orange">FOOD</span> NETWORK</h2>
       <p>
