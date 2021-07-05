@@ -64,11 +64,6 @@ img {
   color: #fff;
   padding: 10px 20px;
 }
-.menuBar > .menuItem:hover {
-  border-left: 4px solid orange;
-  border-right: 4px solid orange;
-  border-radius: 15px;
-}
 
 #hero {
   padding: 10px 40px;
