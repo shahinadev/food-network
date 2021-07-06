@@ -5,13 +5,7 @@ body {
 }
 
 section {
-  margin-bottom: 100px;
-}
-.d-flex {
-  display: flex;
-}
-.center {
-  margin: 0 auto;
+  margin-bottom: 150px;
 }
 h1 {
   font-size: 60px;
@@ -38,6 +32,13 @@ a {
 img {
   width: 100%;
 }
+
+.d-flex {
+  display: flex;
+}
+.center {
+  margin: 0 auto;
+}
 .btn {
   padding: 13px 15px;
   border-radius: 30px;
@@ -48,19 +49,20 @@ img {
   );
   font-weight: 500;
   color: #fff;
-  box-shadow: 0 0 10px 0 tomato;
+  box-shadow: 0 0 13px 0 tomato;
 }
 .text-orange {
   color: orange;
 }
-
-.menuBar {
-  background-color: tomato;
+.text-center {
   text-align: center;
+}
+.menu-bar-container {
+  background-color: #fd4f30;
   padding: 25px 10px;
   margin-bottom: 0;
 }
-.menuBar > .menuItem {
+.menu-bar-container > .menuItem {
   font-size: 18px;
   font-weight: 700;
   color: #fff;
@@ -107,9 +109,9 @@ img {
 .about-description > p {
   margin-bottom: 0;
 }
+
 .recipe-header-content {
   width: 800px;
-  text-align: center;
 }
 .recipe-container {
   width: 100%;
@@ -125,6 +127,7 @@ img {
   padding: 20px;
   border-radius: 30px;
 }
+
 #contact {
   background-image: url(images/shapes/contactBg.jpg);
   background-size: cover;
@@ -134,7 +137,6 @@ img {
   margin-bottom: 0;
 }
 #contact h3 {
-  text-align: center;
   margin-bottom: 40px;
 }
 .form-container {
@@ -143,8 +145,7 @@ img {
 .input-container {
   display: flex;
   flex-direction: column;
-  padding: 5px 5px;
-  box-sizing: border-box;
+  padding: 5px;
 }
 .input-container label,
 input {
@@ -162,15 +163,14 @@ textarea {
 }
 .form-btn {
   display: block;
-  outline: none;
   border: none;
-  margin: 20px auto;
+  margin: 30px auto;
 }
+
 footer {
   background-color: #0b0d17;
   margin: 0;
   padding: 15px 0 60px 0;
-  text-align: center;
 }
 
 footer p {
