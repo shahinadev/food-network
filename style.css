@@ -5,7 +5,7 @@ body {
 }
 
 section {
-  margin-bottom: 150px;
+  margin-bottom: 46px;
 }
 h1 {
   font-size: 60px;
@@ -40,65 +40,66 @@ img {
   margin: 0 auto;
 }
 .btn {
-  padding: 13px 15px;
+  padding: 14px 18px;
   border-radius: 30px;
-  background-image: linear-gradient(
-    124deg,
-    rgb(225 131 43) 13%,
-    rgb(254 58 58) 100%
-  );
-  font-weight: 500;
+  background-image: linear-gradient(88.33deg, #fba24f -7%, #ff1e1e 145%);
+  font-weight: 600;
   color: #fff;
-  box-shadow: 0 0 13px 0 tomato;
+  box-shadow: 0 0 9px 0 tomato;
 }
 .text-orange {
-  color: orange;
+  color: #fc8f49;
 }
 .text-center {
   text-align: center;
 }
 .menu-bar-container {
-  background-color: #fd4f30;
+  background-color: #0b0d17;
   padding: 25px 10px;
   margin-bottom: 0;
 }
 .menu-bar-container > .menuItem {
   font-size: 18px;
-  font-weight: 700;
-  color: #fff;
+  font-weight: 600;
+  color: #fc8f49;
   padding: 10px 20px;
 }
-
+.brand {
+  margin-right: 50px;
+}
+.brand > span {
+  color: #ff6f41;
+}
 #hero {
   padding: 10px 40px;
 }
-.left {
+.left-width {
   width: 40%;
   margin-right: 5%;
 }
-.left > a {
+.left-width > a {
   font-size: 14px;
 }
-.right {
+.right-width {
   width: 50%;
   margin-left: 5%;
 }
 
 #about {
-  background-image: url(images/shapes/about-bg.png);
+  background-image: url(images/about-bg.png);
   height: 400px;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 80px 60px;
   background-position: center;
 }
-#about > .left {
+#about > .left-width {
   width: 50%;
 }
-#about > .right {
+#about > .right-width {
   margin: 0;
 }
-#about > .left > img {
+#about > .left-width > img {
   width: 51.7%;
   display: block;
 }
@@ -129,7 +130,7 @@ img {
 }
 
 #contact {
-  background-image: url(images/shapes/contactBg.jpg);
+  background-image: url(images/contactBg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
