@@ -55,17 +55,25 @@ img {
 }
 .menu-bar-container {
   background-color: #0b0d17;
-  padding: 25px 10px;
+  padding: 15px 240px;
   margin-bottom: 0;
 }
-.menu-bar-container > .menuItem {
+.menuItem-wrapper {
+  width: 60%;
+  padding: 10px 0px;
+}
+.menuItem {
   font-size: 18px;
   font-weight: 600;
   color: #fc8f49;
   padding: 10px 20px;
 }
+
 .brand {
   margin-right: 50px;
+  display: inline-block;
+  padding: 10px 0px;
+  font-size: 19px;
 }
 .brand > span {
   color: #ff6f41;
@@ -148,6 +156,7 @@ img {
   flex-direction: column;
   padding: 5px;
 }
+
 .input-container label,
 input {
   margin-bottom: 10px;
